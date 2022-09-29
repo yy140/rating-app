@@ -1,0 +1,90 @@
+.cardWrapper {
+  background-color: #1E252F;
+  width: 346px;
+  height: 400px;
+  border-radius: 20px;
+  padding: 0 12px 0 30px;
+  font-family: 'Overpass';
+  color: hsl(217, 12%, 63%);
+}
+
+.cardWrapper>h1 {
+  font-size: 24px;
+  font-weight: 700;
+  color: hsl(0, 0%, 100%);
+}
+
+.cardWrapper>p {
+  font-size: 15px;
+  font-weight: 400px;
+  line-height: 21px;
+}
+
+input[type="radio"] {
+  opacity: 0;
+  position: fixed;
+  width: 0;
+}
+
+input[type=radio]:checked+label {
+  background-color: hsl(217, 12%, 63%);
+}
+
+label {
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  border: none;
+  color: hsl(0, 0%, 100%);
+  background-color: #262F38;
+  font-size: 16px;
+  margin-right: 15px;
+  text-align: center;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+}
+
+label:hover {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.submit {
+  text-align: center;
+  border-radius: 29px;
+  text-decoration: none;
+  background: hsl(25, 97%, 53%);
+  color: rgb(255, 255, 255);
+  border: 2px solid hsl(25, 97%, 53%);
+  width: 330px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  font-size: 15px;
+  margin: 10px auto;
+}
+
+.submit:hover {
+  background-color: hsl(0, 0%, 100%);
+  color: hsl(25, 97%, 53%);
+  border-color: hsl(0, 0%, 100%);
+}
+
+.star {
+  color: hsl(25, 97%, 53%);
+  background-color: transparent;
+  height: 50px;
+  width: 50px;
+  border-radius: 25px;
+  border: none;
+  background-color: #262F38;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  justify-content: center;
+  display: flex;
+}
+
+.star>svg {
+  width: 25px;
+  height: 25px;
+  margin: auto;
+}
